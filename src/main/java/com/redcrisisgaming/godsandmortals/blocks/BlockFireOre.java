@@ -15,7 +15,7 @@ public class BlockFireOre extends BlockGAM {
 
     private static final String NAME = "oreFire";
 
-    public BlockFireOre (){
+    public BlockFireOre() {
         super(NAME);
         setHarvestLevel("pickaxe", 3);
         setHardness(20.0F);

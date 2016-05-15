@@ -14,14 +14,16 @@ public class ModItems {
 
     public static final ItemGAM katana = new ItemKatana("katana");
     public static final ItemBlock itemOreThunder = new ItemBlock(ModBlocks.oreThunder);
-
+    public static final ItemBlock itemOreFire = new ItemBlock(ModBlocks.oreFire);
 
     public static void register() {
         GameRegistry.register(katana);
 
 
         itemOreThunder.setRegistryName(ModBlocks.oreThunder.getRegistryName().toString());
+        itemOreFire.setRegistryName(ModBlocks.oreFire.getRegistryName().toString());
         GameRegistry.register(itemOreThunder);
+        GameRegistry.register(itemOreFire);
     }
 
     @SideOnly(Side.CLIENT)
