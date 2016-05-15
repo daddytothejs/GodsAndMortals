@@ -1,6 +1,13 @@
 {
-  "variants":
-  {
-    "normal": { "model": "godsandmortals:oreFire" }
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "all": "godsandmortals:blocks/oreFire"
+    },
+    "model": "cube_all",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": [{ }]
   }
 }
