@@ -1,0 +1,16 @@
+[
+{
+  "modid": "godsandmortals",
+  "name": "Of Gods and Mortals",
+  "description": "A Mod about Gods and Mortals",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["daddytothejs", "fire_buffalo"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
